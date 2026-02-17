@@ -1,0 +1,9 @@
+{"timestamp": "2024-02-17T13:00:00Z", "level": "INFO", "message": "Application started", "service": "api-gateway"}
+{"timestamp": "2024-02-17T13:00:15Z", "level": "INFO", "message": "Request received", "method": "GET", "path": "/api/users", "status": 200}
+{"timestamp": "2024-02-17T13:00:30Z", "level": "INFO", "message": "Database query executed", "query_time_ms": 15, "rows": 42}
+{"timestamp": "2024-02-17T13:00:45Z", "level": "WARNING", "message": "Slow query detected", "query_time_ms": 1500, "threshold_ms": 1000}
+{"timestamp": "2024-02-17T13:01:00Z", "level": "ERROR", "message": "HTTP 500 Internal Server Error", "path": "/api/orders/789", "error": "Database connection timeout"}
+{"timestamp": "2024-02-17T13:01:01Z", "level": "ERROR", "message": "Failed to process request", "error_code": "DB_TIMEOUT", "retry_count": 3}
+{"timestamp": "2024-02-17T13:01:15Z", "level": "INFO", "message": "Connection pool exhausted", "active_connections": 50, "max_connections": 50}
+{"timestamp": "2024-02-17T13:01:30Z", "level": "INFO", "message": "Scaling up connection pool", "new_max": 75}
+{"timestamp": "2024-02-17T13:02:00Z", "level": "INFO", "message": "System recovered", "status": "healthy"}

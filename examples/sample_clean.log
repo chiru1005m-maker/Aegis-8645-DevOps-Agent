@@ -1,0 +1,13 @@
+2024-02-17 12:00:00 INFO Application server starting
+2024-02-17 12:00:01 INFO Configuration loaded from config.yaml
+2024-02-17 12:00:02 INFO Database connection pool initialized (size: 10)
+2024-02-17 12:00:03 INFO Cache service connected: Redis at localhost:6379
+2024-02-17 12:00:04 INFO Application ready on port 8080
+2024-02-17 12:00:30 INFO GET /api/users - 200 OK (15ms)
+2024-02-17 12:00:45 INFO POST /api/users - 201 Created (23ms)
+2024-02-17 12:01:00 INFO GET /api/users/123 - 200 OK (8ms)
+2024-02-17 12:01:15 INFO PUT /api/users/123 - 200 OK (12ms)
+2024-02-17 12:01:30 INFO DELETE /api/users/456 - 204 No Content (5ms)
+2024-02-17 12:02:00 INFO GET /api/health - 200 OK (2ms)
+2024-02-17 12:02:15 INFO System metrics: CPU 25%, Memory 45%, Disk 60%
+2024-02-17 12:02:30 INFO All services operating normally

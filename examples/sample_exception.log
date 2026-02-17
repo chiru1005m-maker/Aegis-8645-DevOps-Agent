@@ -1,0 +1,13 @@
+2024-02-17 11:00:00 INFO Application started successfully
+2024-02-17 11:00:15 INFO Processing batch job: data_import_001
+2024-02-17 11:00:30 INFO Reading data from source: /data/import/users.csv
+2024-02-17 11:00:45 ERROR Exception occurred during data import
+2024-02-17 11:00:45 ERROR Traceback (most recent call last):
+2024-02-17 11:00:45 ERROR   File "data_processor.py", line 45, in process_batch
+2024-02-17 11:00:45 ERROR     result = transform_data(raw_data)
+2024-02-17 11:00:45 ERROR   File "transformers.py", line 23, in transform_data
+2024-02-17 11:00:45 ERROR     return data['user_id'].strip()
+2024-02-17 11:00:45 ERROR KeyError: 'user_id'
+2024-02-17 11:00:46 ERROR Batch job failed: data_import_001
+2024-02-17 11:00:47 INFO Cleaning up resources
+2024-02-17 11:01:00 INFO Application shutdown initiated

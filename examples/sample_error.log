@@ -1,0 +1,13 @@
+2024-02-17 10:15:23 INFO Starting application server on port 8080
+2024-02-17 10:15:24 INFO Database connection established
+2024-02-17 10:15:25 INFO Application ready to accept requests
+2024-02-17 10:16:01 INFO GET /api/users - 200 OK
+2024-02-17 10:16:15 INFO POST /api/users - 201 Created
+2024-02-17 10:16:45 WARNING High memory usage detected: 85%
+2024-02-17 10:17:02 INFO GET /api/users/123 - 200 OK
+2024-02-17 10:17:30 ERROR HTTP 500 Internal Server Error at /api/users/456
+2024-02-17 10:17:30 ERROR Request failed: NullPointerException in getUserById
+2024-02-17 10:17:30 ERROR Stack trace: user_id parameter was null
+2024-02-17 10:17:31 INFO Attempting to recover from error
+2024-02-17 10:17:45 INFO GET /api/health - 200 OK
+2024-02-17 10:18:00 INFO System status: degraded
